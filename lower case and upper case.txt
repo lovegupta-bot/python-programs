@@ -1,0 +1,17 @@
+n = input()
+
+if n >= 'A' and n <= 'Z':
+
+  print("upper case") 
+
+elif n >= 'a' and 'z':
+ 
+ print("lower case")
+
+elif n >= '0' and n <= '9':
+
+  print("digit")
+
+else: 
+   
+ print("sepical character")
